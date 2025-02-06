@@ -1,0 +1,94 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "The Art of Programming",
+            "authorId": 101,
+            "genre": "Technology",
+            "publishedDate": "2015-06-12",
+            "price": 49.99,
+            "description": "A comprehensive guide to programming concepts and best practices."
+        },
+        {
+            "id": 2,
+            "title": "Journey to the Unknown",
+            "authorId": 102,
+            "genre": "Adventure",
+            "publishedDate": "2018-09-21",
+            "price": 19.99,
+            "description": "An exciting adventure novel filled with mystery and suspense."
+        },
+        {
+            "id": 3,
+            "title": "Mastering Data Science",
+            "authorId": 103,
+            "genre": "Data Science",
+            "publishedDate": "2020-03-15",
+            "price": 59.99,
+            "description": "A deep dive into data science techniques, algorithms, and real-world applications."
+        },
+        {
+            "id": 4,
+            "title": "The Mindful Leader",
+            "authorId": 104,
+            "genre": "Self-Help",
+            "publishedDate": "2017-11-05",
+            "price": 24.99,
+            "description": "Learn how mindfulness can enhance leadership skills and productivity."
+        },
+        {
+            "id": 5,
+            "title": "Basics of Web Development",
+            "authorId": 105,
+            "genre": "Web Development",
+            "publishedDate": "2021-01-10",
+            "price": 34.99,
+            "description": "An essential guide for beginners to build modern web applications."
+        },
+        {
+            "id": 6,
+            "title": "The Secrets of the Universe",
+            "authorId": 106,
+            "genre": "Science",
+            "publishedDate": "2019-04-22",
+            "price": 29.99,
+            "description": "Explore the wonders of the universe, from black holes to quantum mechanics."
+        },
+        {
+            "id": 7,
+            "title": "Effective Time Management",
+            "authorId": 107,
+            "genre": "Productivity",
+            "publishedDate": "2016-08-14",
+            "price": 21.99,
+            "description": "A practical guide to improving time management and boosting productivity."
+        },
+        {
+            "id": 8,
+            "title": "The World of Artificial Intelligence",
+            "authorId": 108,
+            "genre": "Technology",
+            "publishedDate": "2022-02-18",
+            "price": 54.99,
+            "description": "An in-depth analysis of AI, its applications, and its impact on society."
+        },
+        {
+            "id": 9,
+            "title": "Cooking Made Easy",
+            "authorId": 109,
+            "genre": "Cooking",
+            "publishedDate": "2014-12-03",
+            "price": 17.99,
+            "description": "Simple and delicious recipes for beginners and home cooks."
+        },
+        {
+            "id": 10,
+            "title": "The Art of Minimalism",
+            "authorId": 110,
+            "genre": "Lifestyle",
+            "publishedDate": "2023-07-25",
+            "price": 27.49,
+            "description": "Discover the beauty of living with less and finding joy in simplicity."
+        }
+    ]
+}
