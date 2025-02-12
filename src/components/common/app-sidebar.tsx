@@ -2,10 +2,11 @@
 
 import * as React from "react"
 import {
-  BookOpen,
-  Bot,
   Settings2,
   SquareTerminal,
+  PenTool,
+  LibraryBig,
+  CircleUserRound,
 } from "lucide-react"
 
 import { NavMain } from "@/components/nav-main"
@@ -28,27 +29,50 @@ const data = {
   navMain: [
     {
       title: "Dashboard",
-      url: "/",
+      url: "http://localhost:3000",
       icon: SquareTerminal,
       isActive: true,
+      items: [
+        {
+          title: "Dashboard",
+          url: "http://localhost:3000",
+        },
+      ],
+    },
+    {
+      title: "Authors",
+      url: "/authors",
+      icon: PenTool,
+      items: [
+        {
+          title: "Authors",
+          url: "/authors",
+        },
+      ],
     },
     {
       title: "Products",
-      url: "/",
-      icon: Bot,
+      url: "/books",
+      icon: LibraryBig ,
+      items: [
+        {
+          title: "Books",
+          url: "/books",
+        },
+      ],
     },
     {
       title: "Accounts",
       url: "#",
-      icon: BookOpen,
+      icon: CircleUserRound,
       items: [
         {
           title: "Login",
-          url: "#",
+          url: "http://localhost:3000/login",
         },
         {
           title: "Signup",
-          url: "#",
+          url: "http://localhost:3000/signup",
         },
       ],
     },
