@@ -1,10 +1,10 @@
-import { AppSidebar } from "@/components/app-sidebar"
-import ModeToggle from "@/components/modeToggle";
-import { NavBarMenu } from "@/components/navBar";
-import { Profile } from "@/components/profile";
-import {CardInfo} from "@/components/card";
-import { BreadCrumb } from "@/components/breadCrumb";
-import {TableDisplay} from "@/components/tableDisplay";
+import { AppSidebar } from "@/components/common/app-sidebar"
+import ModeToggle from "@/components/common/modeToggle";
+import { NavBarMenu } from "@/components/common/navBar";
+import { Profile } from "@/components/common/profile";
+import {CardInfo} from "@/components/common/card";
+import { BreadCrumb } from "@/components/common/breadCrumb";
+import {TableDisplay} from "@/components/common/tableDisplay";
 import {
   SidebarInset,
   SidebarProvider,

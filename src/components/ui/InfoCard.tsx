@@ -14,7 +14,6 @@ const InfoCard: FC<InfoCardProps> = ({ title, description, content }) => (
     <Card className="flex flex-col justify-between w-full">
       <CardHeader>
         <CardTitle>{title}</CardTitle>
-
       </CardHeader>
       <CardContent>
         <h1>{content}</h1>
